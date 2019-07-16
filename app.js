@@ -25,7 +25,7 @@ window.addEventListener("load", () => {
                         summary,
                         icon
                     } = data.currently;
-                    temperatureDegree.textContent = temperature;
+                    temperatureDegree.textContent = temperature + "度";
                     temperatureDescription.textContent = summary;
 
                     if (data.timezone.endsWith('Minh')) {
